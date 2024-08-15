@@ -3,13 +3,7 @@
     "0.0.0.0:8080": {
       "pass": "routes/main"
     },
-    "[::]:8080": {
-      "pass": "routes/main"
-    },
     "0.0.0.0:8081": {
-      "pass": "routes/status"
-    },
-    "[::]:8081": {
       "pass": "routes/status"
     }
   },
